@@ -14,7 +14,6 @@ A REST API for managing a library system, built with Node.js, Express, and Mongo
   - [Books](#books)
   - [Authors](#authors)
 - [Environment Variables](#environment-variables)
-- [License](#license)
 
 ## Features
 
@@ -346,3 +345,4 @@ curl -X POST http://localhost:3000/books \
 The application uses the following environment variables:
 
 - `MONGODB_URI`: MongoDB connection string
+
