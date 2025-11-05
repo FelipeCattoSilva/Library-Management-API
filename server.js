@@ -1,8 +1,8 @@
 import app from './src/app.js'
 
-const URL = "http://localhost:"
-const PORT = 3000
+const PORT = process.env.PORT || 3000
+const HOST = process.env.HOST || 'http://localhost'
 
 app.listen(PORT, () => {
-    console.log(`- Server listening to ${URL}${PORT}`)
+    console.log(`- Server listening on ${HOST}:${PORT}`)
 })

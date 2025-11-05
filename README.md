@@ -54,7 +54,7 @@ A REST API for managing a library system, built with Node.js, Express, and Mongo
 
 3. Create a `.env` file in the root directory with the following variables:
    ```
-   MONGODB_URI=your_mongodb_connection_string
+   MONGO_URI=your_mongodb_connection_string
    ```
 
 ## Running the API
@@ -344,5 +344,5 @@ curl -X POST http://localhost:3000/books \
 
 The application uses the following environment variables:
 
-- `MONGODB_URI`: MongoDB connection string
+- `MONGO_URI`: MongoDB connection string
 
